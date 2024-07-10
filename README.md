@@ -1,4 +1,4 @@
-# Elevator-Control
+# Elevator-Control-System
 
 This project emulates a real-world elevator setup with a system featuring two lifts capable of serving 10 floors, responding to commands from elevator panels and buttons located each floor.
 
@@ -8,11 +8,7 @@ This project aims to replicate a functional elevator system, comprising two elev
 Initial Project Outline:
 The initial idea was to create a realistic two-lift elevator system capable of serving ten floors, with operational panels and buttons on each floor.
 
-Original cost Allocation:
-Eric: datapath 0.5/2, PS2 Keyboard&mouse 1
-David: datapath 0.5/2, ECU FSM 0.25, switches and key 0.25, LED 0.125, VGA 0.125, handle clock crossing
-
-Final cost Allocation:
+Allocation:
 Eric: CCU, PS2 Keyboard (with reference from online demo), Keyboard FSM
 David: CCU, ECU FSM, switch and keys, HEX, VGA, memory block
 
